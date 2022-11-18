@@ -19,7 +19,7 @@ class DataMaps (context : Context){
         for (i in 0 until pixels.size) {
             pixels[i] = green(pixels[i]);
             sum += pixels[i];
-            System.out.println(pixels[i]);
+            //System.out.println(pixels[i]);
         }
         System.out.println(sum/800);
         return pixels
